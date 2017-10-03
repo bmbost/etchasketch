@@ -31,10 +31,16 @@ function FillBody(columns, rows) {
                          "padding": "0",
                          "margin": "0",
                          "width": "100%",
-                         "height": "100%"});
+                         "height": "100%" });
 
     $("#tblContainer").css({"width": "960px",
-                            "height": "960px"});
+                            "height": "960px" });
+    
+    $("tr").css({"padding": "0",
+                 "margin": "0" });
+
+    $("td").css({"padding":"0",
+                 "margin": "0" });
 
     $(".container").hover(
         function() {
